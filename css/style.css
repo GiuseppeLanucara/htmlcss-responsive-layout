@@ -79,9 +79,12 @@ header {
 }
 
 @media screen and (min-width:768px) {
-    .colbig {
-        width: calc( 2 / 3 * 100% - 1em);
+    .colbig1 {
+        width: 66%
         
+    }
+    .colbig2 {
+        width: 33%;
     }
 }
 
@@ -117,7 +120,7 @@ h2{
 
 #section5 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center
 }
 
 #section5:last-child {
