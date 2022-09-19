@@ -26,8 +26,36 @@ header {
     margin-left: 20px;
 }
 
+/* TABLET */
+@media screen and (min-width:768px) {
+    .logo{
+        margin-left: 9%;
+    }
+}
+
+/* DESKTOP 992PX */
+@media screen and (min-width:992px) {
+    .logo{
+        margin-left: 14%;
+    }
+}
+
 .menu {
     margin-right: 20px;
+}
+
+/* TABLET */
+@media screen and (min-width:768px) {
+    .menu{
+        margin-right: 9%;
+    }
+}
+
+/* DESKTOP 992PX */
+@media screen and (min-width:992px) {
+    .menu{
+        margin-right: 14%;
+    }
 }
 
 .container {
@@ -47,6 +75,14 @@ header {
 }
 /* /TABLET */
 
+/* DESKTOP 992PX */
+@media screen and (min-width:992px) {
+    .container{
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 2em;
+    }
+}
 
 .second{
     width: 100%;
@@ -97,6 +133,14 @@ header {
 }
 /* /TABLET */
 
+/* DESKTOP 992PX */
+@media screen and (min-width:992px) {
+    .row3{
+        width: 72%;
+    }
+}
+/* /DESKTOP 992PX */
+
 .col{
     border-radius: 15px;
     margin-top: 20px;
@@ -130,8 +174,28 @@ header {
     .card{
         width: calc(100% / 2 - 2em);
     }
+
+    .info{
+        width: 60%;
+    }
+
+    .info2{
+        width: 36%;
+    }
 }
 /* /TABLET */
+
+/* DESKTOP 992PX */
+@media screen and (min-width:992px) {
+    .tablet{
+        width: 70%;
+    }
+
+    .card{
+        width: calc(100% / 3 - 1em);
+    }
+}
+/* /DESKTOP 992PX */
 
 #section2 {
     background-color: purple;
