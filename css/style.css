@@ -22,6 +22,10 @@ header {
 }
 
 
+.menu ul{
+    display: none;
+}
+
 .logo {
     margin-left: 20px;
 }
@@ -49,12 +53,26 @@ header {
     .menu{
         margin-right: 9%;
     }
+
+    .menu ul{
+        display: none;
+    }
 }
 
 /* DESKTOP 992PX */
 @media screen and (min-width:992px) {
     .menu{
         margin-right: 14%;
+    }
+
+    .menu i {
+        display: none;
+    }
+
+    ul{
+        color: black;
+       display: flex; 
+       list-style: none;
     }
 }
 
@@ -138,6 +156,7 @@ header {
     .row3{
         width: 72%;
     }
+    
 }
 /* /DESKTOP 992PX */
 
