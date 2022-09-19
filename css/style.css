@@ -70,3 +70,41 @@ header {
     /* DEBUG */
     background-color: 1px solid black;
 }
+
+#section2:last-child{
+    padding-bottom: 2em;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+#section4{
+    background-color: purple;
+    width: 100%;
+}
+
+#section4:last-child {
+    padding-bottom: 2em;
+}
+
+#section5 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#section5:last-child {
+    padding-bottom: 2em;
+}
+
+.foot{
+    padding-bottom: 2em;
+}
+
+.footer-down {
+    padding: 2em;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
