@@ -25,10 +25,43 @@ header {
     padding: 1rem;
 }
 
+.centered{
+    text-align: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.purple{
+    color: #9792e4;;
+    width: 80%;
+    margin-top: 15px;
+}
+
+.cards{
+    background-color: #9792e4;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.black{
+    color: black;
+}
+
 .white{
     background-color: white;
     border-radius: 15px;
     width: 80%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    wid
 }
 
 .menu ul{
@@ -233,6 +266,7 @@ header {
 
 .first:first-child {
     margin-top: 10px;
+    text-align: center;
 }
 
 .first>p {
@@ -319,7 +353,7 @@ i{
 
     .tablet{
         width: 80%;
-        border: 1px solid black;
+        
     }
 
     .card{
@@ -390,7 +424,8 @@ h2{
 }
 
 .white a i {
-    background-color: purple;
+    background-color: #9792e4;
+    color: black;
     border-radius: 50%;
     font-size: 15px;
     padding: 1em;
@@ -408,6 +443,21 @@ h2{
     color: white;
     margin-bottom: 10px;
 }
+
+.testimonials{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 1em;
+}
+
+.cards p,h3 {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
 
 #section4{
     background-color: purple;
