@@ -32,6 +32,10 @@ header {
     margin-bottom: 20px;
 }
 
+.left{
+    text-align: left;
+}
+
 .purple{
     color: #9792e4;;
     width: 80%;
@@ -59,11 +63,29 @@ header {
     width: 80%;
 }
 
+.yellow{
+    color: yellow;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+span{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.color3{
+    color: #9792e4;
+    margin-bottom: 15px;
+}
+
+
+
 .column{
     display: flex;
     flex-direction: column;
     align-items: center;
-    wid
 }
 
 .menu ul{
@@ -338,71 +360,11 @@ i{
  color: #0084fd;
 }
 
-/* COL FORMATO TABLET */
-/* TABLET */
-@media screen and (min-width:768px) {
-    .colbig1 {
-        width: 66% 
-    }
-
-    .colbig2 {
-        width: 33%;
-    }
-
-    .small{
-        width: calc(100% / 3 - .3em);
-    }
-
-    .tablet{
-        width: 80%;
-        
-    }
-
-    .card{
-        width: calc(100% / 2 - 2em);
-    }
-
-    .info{
-        width: 60%;
-    }
-
-    .info2{
-        width: 36%;
-    }
-
-    
-}
-/* /TABLET */
-
-/* DESKTOP 992PX */
-@media screen and (min-width:992px) {
-    .tablet{
-        width: 70%;
-    }
-
-    .card{
-        width: calc(100% / 3 - 1em);
-    }
-
-    .publish{
-        width: 40%;
-    }
-
-    .rowsp{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-}
-/* /DESKTOP 992PX */
-
 #section2 {
     background-color: #9792e4;
     width: 100%;
     margin: 0 auto;
 }
-
-
 
 
 #section2:last-child{
@@ -486,7 +448,7 @@ h2{
 }
 
 #section4{
-    background-color: purple;
+    background-color: #9792e4;
     width: 100%;
 }
 
@@ -521,12 +483,42 @@ h2{
     margin-top: 10px;
     margin-bottom: 30px;
 }
-#section5 {
-    display: flex;
-    justify-content: center
+
+.linkedin{
+    margin-right: 5px;
+    padding-right: .1rem;
 }
 
+#section5 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
 
+.info2{
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#last-p{
+    margin-top: 20px;
+}
+
+.last-test{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 1em;
+
+}
 
 #section5:last-child {
     padding-bottom: 2em;
@@ -536,9 +528,90 @@ h2{
     padding-bottom: 2em;
 }
 
+.footer-up{
+    padding: 2em;
+    text-align: center;
+    color: white;
+    background-color: #9792e4;
+    display: flex;
+    justify-content: center;
+}
+
+.credits{
+    text-align: center;
+    width: 60%;
+    border: 1px solid black;
+}
+
 .footer-down {
     padding: 2em;
     text-align: center;
     color: white;
     background-color: black;
 }
+
+.white-button{
+    
+}
+
+/* COL FORMATO TABLET */
+/* TABLET */
+@media screen and (min-width:768px) {
+    .colbig1 {
+        width: 66% 
+    }
+
+    .colbig2 {
+        width: 33%;
+    }
+
+    .small{
+        width: calc(100% / 3 - .3em);
+    }
+
+    .tablet{
+        width: 80%;
+        
+    }
+
+    .card{
+        width: calc(100% / 2 - 2em);
+    }
+
+    .info{
+        width: 60%;
+    }
+
+    .info2{
+        width: 36%;
+    }
+
+    
+}
+/* /TABLET */
+
+/* DESKTOP 992PX */
+@media screen and (min-width:992px) {
+    .tablet{
+        width: 70%;
+    }
+
+    .card{
+        width: calc(100% / 3 - 1em);
+    }
+
+    .publish{
+        width: 40%;
+    }
+
+    .rowsp{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #section5{
+        width: 100%;
+    }
+}
+/* /DESKTOP 992PX */
