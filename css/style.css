@@ -539,8 +539,15 @@ h2{
 
 .credits{
     text-align: center;
-    width: 60%;
-    border: 1px solid black;
+    width: 100%;
+}
+
+#privacy{
+    color: white;
+}
+
+#block{
+    display: block;
 }
 
 .footer-down {
@@ -551,7 +558,15 @@ h2{
 }
 
 .white-button{
-    
+    background-color: white;
+    color: #9792e4;
+    padding: 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    border: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
 }
 
 /* COL FORMATO TABLET */
@@ -586,7 +601,9 @@ h2{
         width: 36%;
     }
 
-    
+    .credits{
+        width: 80%;
+    }
 }
 /* /TABLET */
 
@@ -612,6 +629,10 @@ h2{
 
     #section5{
         width: 100%;
+    }
+
+    .credits{
+        width: 80%;
     }
 }
 /* /DESKTOP 992PX */
