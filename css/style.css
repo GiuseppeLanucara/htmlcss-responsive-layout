@@ -97,8 +97,7 @@ header {
 @media screen and (min-width:992px) {
     .container{
         width: 70%;
-        margin: 0 auto;
-        padding-top: 2em;
+       
     }
 }
 
@@ -201,6 +200,8 @@ header {
     .info2{
         width: 36%;
     }
+
+    
 }
 /* /TABLET */
 
@@ -212,6 +213,16 @@ header {
 
     .card{
         width: calc(100% / 3 - 1em);
+    }
+
+    .publish{
+        width: 40%;
+    }
+
+    .rowsp{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 /* /DESKTOP 992PX */
