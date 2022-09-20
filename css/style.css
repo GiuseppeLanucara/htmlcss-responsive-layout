@@ -38,6 +38,8 @@ header {
     margin-top: 15px;
 }
 
+
+
 .cards{
     background-color: #9792e4;
     width: 80%;
@@ -452,12 +454,36 @@ h2{
   padding: 1em;
 }
 
+/* TABLET CARDS TERZA SEZIONE */
+@media screen and (min-width:768px) {
+
+    .cards{
+        position: relative;
+        width: 80%;
+    }
+    .testimonials{
+        margin-left: -400px;
+    }
+
+    .cards p {
+        position: absolute;
+        width: 50%;
+        right: 100px;
+        top:40px;
+    }
+
+    .cards h3{
+        position: absolute;
+        top: 150px;
+    }
+}
+/* /TABLET CARDS TERZA SEZIONE */
+
 .cards p,h3 {
     color: white;
     margin-top: 15px;
     margin-bottom: 5px;
 }
-
 
 #section4{
     background-color: purple;
@@ -468,6 +494,33 @@ h2{
     padding-bottom: 2em;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    width: 80%;
+}
+
+.numbers{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #9792e4;
+}
+
+.para{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.new{
+    background-color: #9792e4;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 #section5 {
     display: flex;
     justify-content: center
