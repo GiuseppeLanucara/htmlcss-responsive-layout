@@ -24,6 +24,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    position: fixed;
+    z-index: 999;
 }
 
 /* UTILY */
@@ -107,8 +109,8 @@ span{
     margin-left: 20px;
 }
 
-.img{
-    margin-bottom: -5px;
+.img img{
+    display: block;
 }
 
 /* TABLET */
@@ -312,15 +314,6 @@ span{
     }
 }
 /* /COLONNA DESTRA PRIMA SEZIONE TABLET */
-
-
-/* TABLET COLONNA SINISTRA PRIMA SEZIONE */
-@media screen and (min-width:768px) {
-    .img{
-        margin-bottom: -5px;
-    }
-}
-/* /TABLET COLONNA SINISTRA PRIMA SEZIONE */
 
 
 /* DESKTOP COLONNA SINSITRA PRIMA SEZIONE  */
