@@ -28,6 +28,10 @@ header {
 
 /* UTILY */
 
+.spacing{
+    letter-spacing: 2px;
+}
+
 i{
     margin-right: 5px;
 }
